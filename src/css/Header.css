@@ -1,0 +1,50 @@
+header{
+    min-height: 156px;
+    transition: all 0.2s ease-in-out;
+}
+
+.HeaderTop {
+    background: #1B4F72;
+}
+
+.HeaderTop .inner-top-line {
+    transition: all 0.2s ease-in-out;
+    padding: 12px 0;
+    overflow: hidden;
+}
+
+.HeaderTop ul.info-list li {
+    display: inline-block;
+    margin-right:30px;
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 15px;
+    line-height: 41px;
+    font-weight: 600;
+    font-family: "Raleway", sans-serif;
+}
+
+.HeaderTop ul.info-list li i {
+    font-size: 14px;
+    margin-right:10px;
+    color: #F7DC6F;
+}
+
+.HeaderTop ul.social-icons {
+    padding:8px 0;
+    float: right;
+}
+
+.HeaderTop ul.social-icons li {
+    display: inline-block;
+    margin-left: 16px;
+}
+
+.HeaderTop ul.social-icons li a {
+    color: #fff;
+    font-size: 15px;
+}
+
+.HeaderTop ul.social-icons li a:hover {
+    color: #F7DC6F;
+}

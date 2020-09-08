@@ -1,0 +1,46 @@
+.Testimonial {
+    padding: 100px 0;
+    background: #1B4F72;
+}
+
+.Testimonial .test-content {
+    margin-left: 140px;
+}
+
+.Testimonial i {
+    float: left;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    color: #333333;
+    font-size: 22px;
+    background: #F7DC6F;
+    line-height: 100px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.Testimonial p {
+    font-family: "Droid Serif", serif;
+    font-style: italic;
+    margin-bottom: 15px;
+    font-size: 16px;
+    margin-top: 8px;
+    width: 100%;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+
+.Testimonial h3 {
+    color: #fff;
+    margin-bottom: -6px;
+}
+
+.Testimonial .slick-arrow{
+    display: none !important;
+}
+
+.Testimonial .testimonial-post{
+    max-width: 740px;
+    margin: 0 auto;
+}

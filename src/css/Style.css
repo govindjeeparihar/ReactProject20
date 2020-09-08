@@ -1,0 +1,361 @@
+ /*  http://nunforest.com/shtepia/index.html  */ 
+  
+  
+ @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'); 
+ @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+ @import url('https://fonts.googleapis.com/css?family=Droid+Serif:400,400i,700,700i|Poppins:300,400,500,600,700|Raleway:200,300,400,500,600,700,800');
+
+
+ *{
+     margin: 0;
+ }
+
+ button:focus {
+    outline: 0px dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+}
+
+ body{
+    font-size: 14px;
+    color: #888888;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+ }
+
+
+
+ a{
+    color: #EC5538;
+    text-decoration: none;
+    transition: color 300ms, background-color 300ms;
+}
+
+a:hover, a:focus {
+    color: #111;
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+ h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: #4e4e4e;
+    line-height: 1.1;
+    
+}
+
+
+ h1 {
+    font-size: 48px;
+    color: #333333;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+
+h3 {
+    font-size: 14px;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+}
+
+h5 {
+    font-size: 22px;
+}
+
+h6 {
+    font-size: 15px;
+}
+
+.sectionHeader{
+    text-align: center;
+}
+
+.sectionHeader {
+    padding: 100px 0;
+    text-align: center;
+    background: #111 url(../images/ban2.jpg) center top no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+
+.sectionHeader h2{
+    font-size: 48px;
+    line-height: 60px;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+
+ 
+.title-section{
+    text-align: center;
+}
+
+.title-section h2 {
+    color: #333333;
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 44px;
+    position: relative;
+    padding-bottom: 25px;
+    margin-bottom: 25px;
+}
+
+.title-section h2:after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    margin-left: -15px;
+    width: 30px;
+    height: 3px;
+    background: #F7DC6F;
+}
+
+.title-section p {
+    color: #999;
+    line-height: 24px;
+    font-size: 16px;
+    font-style: italic;
+    font-family: "Droid Serif", serif;
+}
+
+.content-post{
+    margin-bottom: 30px;
+}
+.content-post h3{
+    color: #333333;
+    font-size: 20px;
+    font-weight: 700;
+    margin:10px 0;
+    line-height: 26px;
+    text-align: center;
+}
+
+.content-post h6{
+   
+    text-align: center;
+}
+
+
+section.statistic-section {
+    padding: 100px 0 65px;
+    text-align: center;
+    background: #111 url(../images/ban1.jpg) center center;
+    background-size: cover;
+}
+
+
+section.statistic-section .statistic-box .statistic-post i {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background: #F7DC6F;
+    font-size: 30px;
+    line-height: 80px;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    transition: all 0.2s ease-in-out;
+}
+
+section.statistic-section .statistic-box .statistic-post p.timer-elem {
+    display: block;
+    color: #fff;
+    font-size: 48px;
+    line-height: 50px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+section.statistic-section .statistic-box .statistic-post h2 {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+ .team-post {
+    margin-bottom: 30px;
+}
+ul.social-list li {
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.team-post h5 {
+    padding-bottom: 15px;
+    margin: 15px 0;
+    position: relative;
+}
+
+.team-post h5:after {
+    content: '';
+    width: 30px;
+    height: 2px;
+    left: 0;
+    bottom: -1px;
+    position: absolute;
+    background: #F7DC6F;
+}
+
+ul.social-list{
+    margin: 10px 0;
+}
+ul.social-list li a {
+    font-size: 18px;
+    color: #aaaaaa;
+}
+
+.about-section{
+    background-color: #1B4F72;
+    text-align: left;
+}
+ .about-box{
+     padding: 30px;
+ }
+ .about-box .inner-box .about-us-post {
+    overflow: hidden;
+    margin-top: 30px;
+    padding: 40px 20px;
+    border: 1px solid #F7DC6F;
+    background: #F7DC6F;
+    text-align: center;
+}
+.about-box .inner-box .about-us-post a {
+    font-size: 26px;
+    margin-bottom: 10px;
+    color: #333333;
+}
+
+.about-box .title-section{
+    text-align: left;
+    color: #fff;
+}
+
+.about-box .title-section h1,
+.about-box .title-section p{
+    color:#fff;
+}
+
+.contact-section ul.information-list li {
+    list-style: none;
+    overflow: hidden;
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+.contact-section ul.information-list li i {
+    float: left;
+    color: #1B4F72;
+    font-size: 26px;
+    display: inline-block;
+    line-height: 30px;
+    text-align: center;
+    width: 40px;
+    margin-top: 6px;
+}
+
+.MapGoogle{
+    position: relative;
+    min-height: 500px;
+}
+
+.services-gal{
+    max-height:175px;
+    overflow: hidden;
+}
+
+.project-item{
+    margin-bottom: 30px;
+}
+
+.react-tabs__tab-list{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+
+}
+
+.react-tabs__tab-list li{
+    margin: 0 10px;
+    border: 1px solid gray;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.react-tabs__tab--selected,
+.react-tabs__tab-list li:hover{
+     color: #000;
+    background:#F7DC6F;
+}
+
+
+
+
+
+
+
+
+.colorSquare {
+    border:1px solid #333;
+    width: 242px;
+    height: 242px;
+    margin-bottom: 15px;
+  }
+
+  .colorArea input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #CCC;
+  }
+
+  .colorArea button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px;
+    background-color: #666;
+    color: #FFF;
+    border: 2px solid #666;
+  }
+
+  .colorArea button:hover {
+    background-color: #111;
+    border-color: #111;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 576px){
+    .container{
+        padding: 0;
+    }
+
+}
