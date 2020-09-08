@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/ReactProject20/static/css/main.1d872354.chunk.css",
+    "main.js": "/ReactProject20/static/js/main.882fbcfa.chunk.js",
+    "main.js.map": "/ReactProject20/static/js/main.882fbcfa.chunk.js.map",
+    "runtime-main.js": "/ReactProject20/static/js/runtime-main.65c39895.js",
+    "runtime-main.js.map": "/ReactProject20/static/js/runtime-main.65c39895.js.map",
+    "static/js/2.7462e6e0.chunk.js": "/ReactProject20/static/js/2.7462e6e0.chunk.js",
+    "static/js/2.7462e6e0.chunk.js.map": "/ReactProject20/static/js/2.7462e6e0.chunk.js.map",
+    "index.html": "/ReactProject20/index.html",
+    "precache-manifest.a7923b1e2fc162b1679400b149c6a8a2.js": "/ReactProject20/precache-manifest.a7923b1e2fc162b1679400b149c6a8a2.js",
+    "service-worker.js": "/ReactProject20/service-worker.js",
+    "static/css/main.1d872354.chunk.css.map": "/ReactProject20/static/css/main.1d872354.chunk.css.map",
+    "static/js/2.7462e6e0.chunk.js.LICENSE": "/ReactProject20/static/js/2.7462e6e0.chunk.js.LICENSE",
+    "static/media/ab1.jpg": "/ReactProject20/static/media/ab1.af8ae640.jpg",
+    "static/media/ab2.jpg": "/ReactProject20/static/media/ab2.ad2a71ef.jpg",
+    "static/media/ab3.jpg": "/ReactProject20/static/media/ab3.eab44ef8.jpg",
+    "static/media/Style.css": "/ReactProject20/static/media/ban2.908a32c9.jpg",
+    "static/media/slide1.jpg": "/ReactProject20/static/media/slide1.0defd9dd.jpg",
+    "static/media/slide2.jpg": "/ReactProject20/static/media/slide2.543ff419.jpg",
+    "static/media/slide3.jpg": "/ReactProject20/static/media/slide3.bb42a628.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.65c39895.js",
+    "static/js/2.7462e6e0.chunk.js",
+    "static/css/main.1d872354.chunk.css",
+    "static/js/main.882fbcfa.chunk.js"
+  ]
+}
